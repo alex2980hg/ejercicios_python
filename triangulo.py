@@ -6,7 +6,9 @@ ladoc = int(input("\nINGRESA EL LADO C: "))
 if ladoa == ladob and ladoc == ladoa: 
     print("ES UN TRIANGULO EQUILATERO")
 
-elif (ladoa == ladob and ladoa != ladoc) or (ladob == ladoc and ladob != ladoa) or (ladoa == ladoc and ladoc != ladob):
+#elif (ladoa == ladob and ladoa != ladoc) or (ladob == ladoc and ladob != ladoa) or (ladoa == ladoc and ladoc != ladob):
+
+elif (ladoa == ladob or ladob == ladoc or ladoc == ladoa) :
 
     print ("ES UN TRIANGULO ISOSCELES")
 
