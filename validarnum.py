@@ -15,4 +15,6 @@ else:
 
     print ("EL TERCER NUMERO ES MAYOR")
 
+print ("ESTO ES UNA PRUEBA")
+
 #elif num1 == num2 and num3 == num2
